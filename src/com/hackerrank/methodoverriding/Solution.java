@@ -3,20 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplications;
+package com.hackerrank.methodoverriding;
 
 /**
  *
  * @author karthick
  */
-public class JavaApplications {
+public class Solution {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
-        System.out.println("Test"); 
+        MotorCycle M = new MotorCycle();
     }
-    
 }
