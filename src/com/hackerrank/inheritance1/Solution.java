@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.hackerrank.methodoverriding;
+package com.hackerrank.inheritance1;
 
 /**
  *
@@ -11,7 +11,12 @@ package com.hackerrank.methodoverriding;
  */
 public class Solution {
 
-    public static void main(String[] args) {
-        MotorCycle M = new MotorCycle();
+    public static void main(String args[]) {
+
+        Bird bird = new Bird();
+        bird.walk();
+        bird.fly();
+        bird.sing();
+
     }
 }
